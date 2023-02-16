@@ -82,6 +82,7 @@
 
 /* STICKY NAVIGATION */
 /* adds sticky class to header only if sticky class is the parent*/
+
 .sticky .header {
   /* will lock the element on the screen - removes element from the flow */
   position: fixed;
@@ -94,10 +95,22 @@
   background-color: #fff;
   z-index: 999;
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.04);
+
+  animation: thebestanimationever 0.3s ease-in-out;
+}
+
+/* sticky animation */
+@keyframes thebestanimationever {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* adds sticky class to section-hero only if sticky class is the parent*/
-.sticky .section-hero {
+.sticky main .section-hero {
   margin-top: 9.6rem;
 }
 
