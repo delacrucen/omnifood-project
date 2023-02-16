@@ -327,8 +327,8 @@ Instead, 1rem = 1em = 16px */
 /* BELOW 384px (Smaller Smartphones) */
 /**********************/
 @media (max-width: 24em) {
-  .margin-bottom-sm {
-    margin-bottom: 1.6rem;
+  .hero {
+    padding: 0 2.4rem;
   }
 }
 
