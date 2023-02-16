@@ -79,7 +79,6 @@ html {
   /* hide elements in the X axis, especially for the transformed mobile nav bar */
   /* only works if there's nothing absolutely positioned in relation to body */
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 body {
