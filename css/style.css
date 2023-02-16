@@ -80,6 +80,21 @@
   display: none;
 }
 
+/* STICKY NAVIGATION */
+.sticky {
+  /* will lock the element on the screen - removes element from the flow */
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.04);
+}
+
 /**********************/
 /* HERO SECTION */
 /**********************/
