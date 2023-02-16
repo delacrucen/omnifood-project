@@ -140,7 +140,7 @@ Instead, 1rem = 1em = 16px */
   .btn-mobile-nav {
     display: block;
     /* z-index bc it was at the bottom */
-    z-index: 100;
+    z-index: 9999;
   }
 
   .main-nav {
@@ -175,6 +175,8 @@ Instead, 1rem = 1em = 16px */
     visibility: none;
   }
 
+  /* /////////////////// */
+  /* adds only to the main-nav if .nav-open is the parent */
   .nav-open .main-nav {
     opacity: 1;
     pointer-events: auto;
