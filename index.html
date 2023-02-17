@@ -579,6 +579,7 @@
                   <!-- these elements are inline elements -->
                   <label for="full-name">Full Name</label>
                   <input
+                    name="full-name"
                     id="full-name"
                     type="text"
                     placeholder="Your name"
@@ -589,6 +590,7 @@
                 <div>
                   <label for="email">E-mail adress</label>
                   <input
+                    name="email"
                     id="email"
                     type="email"
                     placeholder="me@example.com"
@@ -599,7 +601,7 @@
 
                 <div>
                   <label for="select-where">Where did you hear from us?</label>
-                  <select name="" id="select-where" required>
+                  <select name="select-where" id="select-where" required>
                     <!-- values are useful bc that's the data the form submits -->
                     <!-- empty values works as validator if we put required in the parent element -->
                     <option value="">Please choose one option:</option>
